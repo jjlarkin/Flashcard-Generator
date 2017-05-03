@@ -2,16 +2,21 @@
   {
     "type": "Basic",
     "front": "What is your name?",
-    "back": "Arthur"
+    "back": "arthur"
   },
   {
     "type": "Basic",
     "front": "What is your quest?",
-    "back": "To seek the Holy Grail"
+    "back": "to seek the holy grail"
+  },
+  {
+    "type": "Basic",
+    "front": "What is your favorite color?",
+    "back": "blue"
   },
   {
     "type": "Basic",
     "front": "What...is the airspeed velocity of an unladen swallow? ?",
-    "back": "What do you mean, an African or European swallow?"
+    "back": "what do you mean, an african or european swallow?"
   }
 ]

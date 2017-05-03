@@ -58,17 +58,42 @@ function createCard(){
                 if(data.callMain==="Yes") {
                     inquirerMain()
                 }
-                else return
+
                 })
             });
 
         }
     });
 }
+function getCard(card) {
 
+    let studyCard = new BasicCard(card.front, card.back);
+    return studyCard.front;
+}
 
+let i=0;
 function beginStudying(){
 
+    if (i<cards.length){
+        cardFront=getCard(cards[i]);
+        inquirer.prompt([
+            {
+                type:"input",
+                message:cardFront,
+                name:"question"
+            }
+        ]).then(function(answer){
+            answer.question=answer.question.toLowerCase();
+            if(answer.question===cards[i].back){
+                console.log("Correct!");
+                i++;
+                beginStudying()
+            }else {
+                console.log("I don't know that");
+                console.log("Ahhhhhhhhhhh!")
+            }
+        })
+    }
 }
 
 
