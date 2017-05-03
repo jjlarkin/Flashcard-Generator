@@ -1,0 +1,17 @@
+[
+  {
+    "type": "Basic",
+    "front": "What is your name?",
+    "back": "Arthur"
+  },
+  {
+    "type": "Basic",
+    "front": "What is your quest?",
+    "back": "To seek the Holy Grail"
+  },
+  {
+    "type": "Basic",
+    "front": "What...is the airspeed velocity of an unladen swallow? ?",
+    "back": "What do you mean, an African or European swallow?"
+  }
+]
